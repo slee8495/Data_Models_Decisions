@@ -1,0 +1,12 @@
+name: DataModelsDecisions
+title: DataModelsDecisions
+username: stan-lee
+account: stan-lee
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10702035
+bundleId: 8000498
+url: https://sangho-lee.shinyapps.io/DataModelsDecisions/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
