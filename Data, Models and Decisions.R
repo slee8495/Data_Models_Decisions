@@ -37,7 +37,7 @@ ui <- fluidPage(
                tabPanel("Chapter 1: Decision Analysis", value = "chapter1",
                         fluidPage(
                           pickerInput("chapter1_select", "Choose a Case:",
-                                      choices = c("Case 1: Bill Sampras Summer Job Decision", 
+                                      choices = c("Bill Sampras Summer Job Decision", 
                                                   "Case 2", 
                                                   "Case 3")),
                           uiOutput("chapter1_content"))),
@@ -109,7 +109,7 @@ server <- function(input, output, session) {
     req(input$chapter1_select) 
     
     file_name <- switch(input$chapter1_select,
-                        "Case 1: Bill Sampras Summer Job Decision" = "chap1_subchap_1_case_1.html",
+                        "Bill Sampras Summer Job Decision" = "chap1_subchap_1_case_1.html",
                         "Case 2" = "chap1_subchap_1_case_2.html",
                         "Case 3" = "case3.html")
     
