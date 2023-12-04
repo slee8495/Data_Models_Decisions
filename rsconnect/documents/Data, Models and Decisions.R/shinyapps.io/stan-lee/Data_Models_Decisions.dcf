@@ -5,7 +5,7 @@ account: stan-lee
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10706105
-bundleId: 8002268
+bundleId: 8002434
 url: https://sangho-lee.shinyapps.io/Data_Models_Decisions/
 version: 1
 asMultiple: FALSE
