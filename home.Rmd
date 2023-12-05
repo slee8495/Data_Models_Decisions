@@ -1,35 +1,51 @@
 ---
-title: "Welcome to my Home"
-author: "Sangho Lee"
-date: "2023-12-03"
-output: ioslides_presentation
+title: " "
+output:
+  html_document:
+  css: styles.css
 ---
+  
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
 ```
 
-## R Markdown
+-----------------------------------------------------------------------
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+-----------------------------------------------------------------------
+  
+## Welcome to my Business Analytics Website
+  
+<br>
+  
+Step into the world of the book "Data, Models, and Decisions" written by Dimitris Bertsimas and Robert M. Freund, distinguished professors from the MIT Sloan School of Management. This book, which I first encountered as a textbook during my Business Analytics Master's degree at University of California San Diego (UCSD), Rady School of Management, remains a vital resource filled with rich lessons and captivating case studies in business analytics.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+On this website, I dive into these insightful case studies, offering my personal interpretations and solutions, primarily employing R and occasionally Python. It's a vibrant space for exploring the intricate connections between data, models, and decision-making in the business world.
 
-## Slide with Bullets
+I welcome your thoughts, feedback, or any discussions at [businessanalyticsslee\@gmail.com](mailto:businessanalyticsslee@gmail.com) or [sanlee8495\@gmail.com](mailto:sanlee8495@gmail.com).
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+-----------------------------------------------------------------------
 
-## Slide with R Output
+-----------------------------------------------------------------------
 
-```{r cars, echo = TRUE}
-summary(cars)
+
+::: {#footer}
+```         
+  Copyright © 2023 Sangho Lee, All rights reserved.
 ```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
-
+:::
+    

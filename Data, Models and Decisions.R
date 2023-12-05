@@ -12,23 +12,19 @@ ui <- fluidPage(
       .navbar .navbar-nav {
         width: 100%;
       }
-      .search-bar {
-        width: 200px;
-        float: right;
-        margin-top: 8px;
-        margin-right: 10px;
-      }
+
       .navbar-brand {
-        font-size: 32px; 
+        font-size: 25px; 
         margin-bottom: 30px;
+        font-family: 'Verdana', sans-serif; 
       }
     "))
   ),
   
   navbarPage(
     id = "main_nav",
-    title = div(class = "navbar-brand", "Data, Models, and Decisions"),
-    tabPanel("🏠"),
+    title = div(class = "navbar-brand", "Sangho's Business Analytics Case Study & Solutions"),
+    tabPanel("🏠", value = "home", uiOutput("home")),
     navbarMenu("Introduction",
                tabPanel("About Me", value = "about_me", uiOutput("about_me")), 
                tabPanel("About the Book", value = "about_the_book", uiOutput("about_the_book"))
@@ -63,6 +59,22 @@ server <- function(input, output, session) {
   active_tab <- reactiveVal("home")
   
   
+  ################################################## Home ##################################################
+  observeEvent(input$main_nav, {
+    if(input$main_nav == "home") {
+      rendered_html <- rmarkdown::render("home.Rmd", output_dir = "www", output_file = "home.html")
+      
+      active_tab(input$main_nav)
+    }
+  })
+  
+  output$home <- renderUI({
+    if (active_tab() == "home") {
+      tags$iframe(src = "home.html", style = "width:100%; height:900px;")
+    }
+  })
+  
+  active_tab <- reactiveVal("home")
   
   
   ################################################## About Me ##################################################
@@ -76,7 +88,7 @@ server <- function(input, output, session) {
   
   output$about_me <- renderUI({
     if (active_tab() == "about_me") {
-      tags$iframe(src = "about_me.html", style = "width:100%; height:1000px;")
+      tags$iframe(src = "about_me.html", style = "width:100%; height:900px;")
     }
   })
   
@@ -95,7 +107,7 @@ server <- function(input, output, session) {
   
   output$about_the_book <- renderUI({
     if (active_tab() == "about_the_book") {
-      tags$iframe(src = "about_the_book.html", style = "width:100%; height:1000px;")
+      tags$iframe(src = "about_the_book.html", style = "width:100%; height:900px;")
     }
   })
   
@@ -114,7 +126,7 @@ server <- function(input, output, session) {
                         "Case 3" = "case3.html")
     
     if (!is.null(file_name)) {
-      tags$iframe(src = file_name, style = "width:100%; height:1000px;")
+      tags$iframe(src = file_name, style = "width:100%; height:900px;")
     }
   })
   
