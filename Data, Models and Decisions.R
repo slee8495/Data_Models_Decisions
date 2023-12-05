@@ -70,7 +70,7 @@ server <- function(input, output, session) {
   
   output$home <- renderUI({
     if (active_tab() == "home") {
-      tags$iframe(src = "home.html", style = "width:100%; height:900px;")
+      tags$iframe(src = "home.html", style = "width:100%; height:850px;")
     }
   })
   
@@ -88,7 +88,7 @@ server <- function(input, output, session) {
   
   output$about_me <- renderUI({
     if (active_tab() == "about_me") {
-      tags$iframe(src = "about_me.html", style = "width:100%; height:900px;")
+      tags$iframe(src = "about_me.html", style = "width:100%; height:850px;")
     }
   })
   
@@ -107,7 +107,7 @@ server <- function(input, output, session) {
   
   output$about_the_book <- renderUI({
     if (active_tab() == "about_the_book") {
-      tags$iframe(src = "about_the_book.html", style = "width:100%; height:900px;")
+      tags$iframe(src = "about_the_book.html", style = "width:100%; height:850px;")
     }
   })
   
@@ -126,7 +126,7 @@ server <- function(input, output, session) {
                         "Case 3" = "case3.html")
     
     if (!is.null(file_name)) {
-      tags$iframe(src = file_name, style = "width:100%; height:900px;")
+      tags$iframe(src = file_name, style = "width:100%; height:850px;")
     }
   })
   
