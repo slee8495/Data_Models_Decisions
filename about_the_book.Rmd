@@ -1,37 +1,50 @@
 ---
-title: "Untitled"
-author: "Sangho Lee"
-date: "2023-12-03"
-output: ioslides_presentation
+title: " "
+output:
+  html_document:
+  css: styles.css
 ---
+  
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
 ```
 
-## R Markdown
+-----------------------------------------------------------------------
 
-<img src="www/book.png" alt="This is a local image" width="500" height="300"/>
+-----------------------------------------------------------------------
+  
+🚧 Under Construction 🚧
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+-----------------------------------------------------------------------
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+-----------------------------------------------------------------------
 
-## Slide with Bullets
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
+::: {#footer}
+```         
+  Copyright © 2023 Sangho Lee, All rights reserved.
 ```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
-
+:::
+    

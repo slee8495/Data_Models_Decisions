@@ -34,13 +34,15 @@ ui <- fluidPage(
                         fluidPage(
                           pickerInput("chapter1_select", "Choose a Case:",
                                       choices = c("Bill Sampras Summer Job Decision", 
-                                                  "Case 2", 
-                                                  "Case 3")),
+                                                  "Bio-Imaging Development Strategies")),
                           uiOutput("chapter1_content"))),
                
-               tabPanel("Chapter 2", value = "chapter2"),
-               tabPanel("Chapter 3"),
-               tabPanel("Chapter 4")
+               tabPanel("Chapter 2: Fundamentals of Discrete Probability", value = "chapter2",
+                        fluidPage(
+                          pickerInput("chapter2_select", "Choose a Case:",
+                                      choices = c("Development of a new consumer Product")),
+                          uiOutput("chapter2_content")))
+               
     ),
     
     
@@ -121,9 +123,8 @@ server <- function(input, output, session) {
     req(input$chapter1_select) 
     
     file_name <- switch(input$chapter1_select,
-                        "Bill Sampras Summer Job Decision" = "chap1_subchap_1_case_1.html",
-                        "Case 2" = "chap1_subchap_1_case_2.html",
-                        "Case 3" = "case3.html")
+                        "Bill Sampras Summer Job Decision" = "bill_sampras_summer_job_decision.html",
+                        "Bio-Imaging Development Strategies" = "bio_imaging_development_strategies.html")
     
     if (!is.null(file_name)) {
       tags$iframe(src = file_name, style = "width:100%; height:800px;")
@@ -134,6 +135,27 @@ server <- function(input, output, session) {
     active_tab(input$main_nav)
   })
   
+
+
+################################## Chapter 2: Fundamentals of Discrete Probability ###########################################
+
+
+output$chapter2_content <- renderUI({
+  req(input$chapter2_select) 
+  
+  file_name <- switch(input$chapter2_select,
+                      "Development of a new consumer Product" = "development_of_a_new_consumer_product.html")
+  
+  if (!is.null(file_name)) {
+    tags$iframe(src = file_name, style = "width:100%; height:800px;")
+  }
+})
+
+observeEvent(input$main_nav, {
+  active_tab(input$main_nav)
+})
+
 }
 
 shinyApp(ui = ui, server = server)
+
