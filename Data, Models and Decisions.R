@@ -41,7 +41,13 @@ ui <- fluidPage(
                         fluidPage(
                           pickerInput("chapter2_select", "Choose a Case:",
                                       choices = c("Development of a new consumer Product")),
-                          uiOutput("chapter2_content")))
+                          uiOutput("chapter2_content"))),
+               
+               tabPanel("Chapter 6: Regression Models: Concepts and Practice", value = "chpater6",
+                        fluidPage(
+                          pickerInput("chapter6_select", "Choose a Case:",
+                                      choices = c("The Construction Department at Croq'Pain")),
+                          uiOutput("chapter6_content")))
                
     ),
     
@@ -123,7 +129,7 @@ server <- function(input, output, session) {
     req(input$chapter1_select) 
     
     file_name <- switch(input$chapter1_select,
-                        "Bill Sampras Summer Job Decision" = "bill_sampras_summer_job_decision.html",
+                        "Bill Sampras Summer Job Decision" = "bill_sampras_summer_job.html",
                         "Bio-Imaging Development Strategies" = "bio_imaging_development_strategies.html")
     
     if (!is.null(file_name)) {
@@ -155,7 +161,36 @@ observeEvent(input$main_nav, {
   active_tab(input$main_nav)
 })
 
+
+
+
+
+################################## Chapter 6: Regression Models: Concepts and Practice ###########################################
+
+
+output$chapter6_content <- renderUI({
+  req(input$chapter6_select) 
+  
+  file_name <- switch(input$chapter6_select,
+                      "The Construction Department at Croq'Pain" = "the_construction_department_at_croqpain.html")
+  
+  if (!is.null(file_name)) {
+    tags$iframe(src = file_name, style = "width:100%; height:800px;")
+  }
+})
+
+observeEvent(input$main_nav, {
+  active_tab(input$main_nav)
+})
+
+
+
+
+#########################################################################################################################################################
+
+
 }
 
 shinyApp(ui = ui, server = server)
+
 
