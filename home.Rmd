@@ -44,8 +44,8 @@ I welcome your thoughts, feedback, or any discussions at [businessanalyticsslee\
 
 
 ::: {#footer}
-```         
-  Copyright © 2023-2024 Sangho Lee, All rights reserved.
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
 ```
 :::
     

@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "**About Me**"
 output:
   html_document:
   css: styles.css
@@ -8,8 +8,23 @@ output:
 ```{css, echo=FALSE}
 body {
   font-family: 'Verdana', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
 }
 
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
 
 
 ```
@@ -34,9 +49,15 @@ Speaking of excitement, I'm a huge baseball fan, especially of the LA Dodgers. M
 
 ![](Photo/golf.png){width="164"}. ![](Photo/Sangho.png){width="175"}
 
-<br> <br> Back at home, life is a bundle of joy, thanks to Brownie, my adorable miniature poodle. She's the little boss of the house, always up for food and treats or a cozy nap. Her existence at home absolutely gives me the joy! 🐶
+<br> <br> 
 
-And of course, there's my better half -- my wonderful wife. We're a great team, enjoying life's simple pleasures, from exploring new places to just chilling at home. So, that's a slice of my life outside the office -- a mix of sports, puppy love, and great times with my wife.
+Back at home in Irvine, California, with two of my greatest joys: my adorable miniature poodle, Brownie, and my wonderful wife, Kristen. Our days are brightened by Brownie, the undisputed little boss of our home. She's a bundle of enthusiasm, always on a quest for treats and seeking out the coziest napping spots. Her playful antics and affectionate nature bring a smile to every moment.
+
+Living in Irvine offers its own charms. Whether we're soaking up the California sun, exploring local hidden gems (So many good foods in OC!), or simply enjoying a quiet day at home, every day is an adventure, though my wife and I also love to stay at home for as many as days we can 😂. 
+
+<br>
+
+
 
 ![](Photo/family.png){width="209"}
 
@@ -47,3 +68,10 @@ Enjoy your visit!
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
+
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::

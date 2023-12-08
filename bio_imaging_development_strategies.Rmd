@@ -17,17 +17,6 @@ body {
 
 
 
-#footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: #f2f2f2; /* You can change the background color */
-  color: black; /* Text color */
-  text-align: center;
-padding: 10px 0;
-font-size: 0.9em;
-}
 
 ```
 
@@ -42,9 +31,4 @@ font-size: 0.9em;
 -----------------------------------------------------------------------
 
 
-::: {#footer}
-```         
-  Copyright © 2023 Sangho Lee, All rights reserved.
-```
-:::
     
