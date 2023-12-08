@@ -4,47 +4,46 @@ output:
   html_document:
   css: styles.css
 ---
-  
+
 ```{css, echo=FALSE}
 body {
   font-family: 'Verdana', sans-serif;
-  display: flex;
-  flex-direction: column;
-  height: 100vh; /* Full height of the viewport */
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
 }
 
 
 
-#footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: #f2f2f2; /* You can change the background color */
-  color: black; /* Text color */
-  text-align: center;
-padding: 10px 0;
-font-size: 0.9em;
-}
-
 ```
 
------------------------------------------------------------------------
+------------------------------------------------------------------------
 
------------------------------------------------------------------------
-  
-🚧 Under Construction 🚧
+------------------------------------------------------------------------
 
------------------------------------------------------------------------
+Hello! I'm Sangho Lee, a dedicated data analyst at Ventura Foods where I currently enhancing business processes at Ventura Foods and a bit of an R enthusiast.
 
------------------------------------------------------------------------
+![](Photo/Sangho_2.png){width="306"}
 
+<br><br> My data journey didn't start in a classroom; it began hands-on, with lots of coding and real-world problem-solving. Keen to dive deeper, I headed to UC San Diego for a Master's in Business Analytics, which turned out to be a fantastic playground for my data-driven curiosity.
 
-::: {#footer}
-```         
-  Copyright © 2023 Sangho Lee, All rights reserved.
-```
-:::
-    
+At Ventura Foods, my day-to-day is all about making things easier and more insightful through automation and dashboards, thanks to the magic of R and R Shiny. I believe in the power of data to tell stories and guide decisions, and I love turning complex data into clear, actionable insights.
+
+This website? It's my digital sandbox. Inspired by "Data, Models, and Decisions" by Dimitris Bertsimas and Robert M. Freund, it's where I unpack case studies using R and Python, hoping to spark conversations and share a-ha moments about data and decisions in the business world.
+
+<br><br>When I'm not crunching numbers or codings, you'll likely find me on the golf course or cheering for the LA Dodgers. Golf is my way to unwind -- there's nothing like the peace of hitting the fairways, and every round is a new adventure. It's my mini-vacation from the daily grind.
+
+Speaking of excitement, I'm a huge baseball fan, especially of the LA Dodgers. My first game at Dodger Stadium was an unforgettable experience -- the energy, the fans, and that unforgettable feeling of being part of something bigger. It's been a thrill ride ever since! 🏌️⚾
+
+![](Photo/golf.png){width="164"}. ![](Photo/Sangho.png){width="175"}
+
+<br> <br> Back at home, life is a bundle of joy, thanks to Brownie, my adorable miniature poodle. She's the little boss of the house, always up for food and treats or a cozy nap. Her existence at home absolutely gives me the joy! 🐶
+
+And of course, there's my better half -- my wonderful wife. We're a great team, enjoying life's simple pleasures, from exploring new places to just chilling at home. So, that's a slice of my life outside the office -- a mix of sports, puppy love, and great times with my wife.
+
+![](Photo/family.png){width="209"}
+
+<br><br>I hope you enjoy the websites and also Feel free to visit my [LinkedIn](https://www.linkedin.com/in/slee1211), or check out what I'm up to on [GitHub](https://www.github.com/slee8495).
+
+Enjoy your visit!
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------

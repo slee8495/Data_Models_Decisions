@@ -29,7 +29,7 @@ ui <- fluidPage(
                tabPanel("About Me", value = "about_me", uiOutput("about_me")), 
                tabPanel("About the Book", value = "about_the_book", uiOutput("about_the_book"))
     ),
-    navbarMenu("Case Study - My Interpretations/Solution",
+    navbarMenu("Case Study - My Interpretations/Solutions",
                tabPanel("Chapter 1: Decision Analysis", value = "chapter1",
                         fluidPage(
                           pickerInput("chapter1_select", "Choose a Case:",
@@ -129,7 +129,7 @@ server <- function(input, output, session) {
     req(input$chapter1_select) 
     
     file_name <- switch(input$chapter1_select,
-                        "Bill Sampras Summer Job Decision" = "bill_sampras_summer_job.html",
+                        "Bill Sampras Summer Job Decision" = "bill_sampras_summer_job_decision.html",
                         "Bio-Imaging Development Strategies" = "bio_imaging_development_strategies.html")
     
     if (!is.null(file_name)) {
