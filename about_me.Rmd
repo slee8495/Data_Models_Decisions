@@ -33,7 +33,7 @@ font-size: 0.9em;
 
 ------------------------------------------------------------------------
 
-Hello! I'm Sangho Lee, a dedicated data analyst at Ventura Foods where I currently enhancing business processes at Ventura Foods and a bit of an R enthusiast.
+Hello! I'm Sangho Lee, a dedicated data analyst at Ventura Foods where I am currently enhancing business processes at Ventura Foods and a bit of an R enthusiast.
 
 ![](Photo/Sangho_2.png){width="306"}
 
