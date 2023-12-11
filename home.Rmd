@@ -36,6 +36,8 @@ Step into the world of the book "Data, Models, and Decisions" written by Dimitri
 
 On this website (which is built in Shiny RStudio), I dive into these insightful case studies, offering my personal interpretations and solutions, primarily employing R or Python. It's a vibrant space for exploring the intricate connections between data, models, and decision-making in the business world.
 
+I strive to maintain a balance between informative content and engaging analysis, ensuring that the experience remains fun and exciting without being boring!
+
 I welcome your thoughts, feedback, or any discussions at [businessanalyticsslee\@gmail.com](mailto:businessanalyticsslee@gmail.com) or [sanlee8495\@gmail.com](mailto:sanlee8495@gmail.com).
 
 -----------------------------------------------------------------------
