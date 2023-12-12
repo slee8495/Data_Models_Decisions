@@ -26,6 +26,7 @@ ui <- fluidPage(
     title = div(class = "navbar-brand", "Sangho's Business Analytics Case Study & Solutions"),
     tabPanel("🏠", value = "home", uiOutput("home")),
     navbarMenu("Introduction",
+               tabPanel("Greetings", value = "greetings", uiOutput("greetings")), 
                tabPanel("About Me", value = "about_me", uiOutput("about_me")), 
                tabPanel("About the Book", value = "about_the_book", uiOutput("about_the_book"))
     ),
@@ -79,6 +80,23 @@ server <- function(input, output, session) {
   output$home <- renderUI({
     if (active_tab() == "home") {
       tags$iframe(src = "home.html", style = "width:100%; height:800px;")
+    }
+  })
+  
+  active_tab <- reactiveVal("home")
+  
+  ################################################## Greetings ##################################################
+  observeEvent(input$main_nav, {
+    if(input$main_nav == "greetings") {
+      rendered_html <- rmarkdown::render("greetings.Rmd", output_dir = "www", output_file = "greetings.html")
+      
+      active_tab(input$main_nav)
+    }
+  })
+  
+  output$greetings <- renderUI({
+    if (active_tab() == "greetings") {
+      tags$iframe(src = "greetings.html", style = "width:100%; height:800px;")
     }
   })
   

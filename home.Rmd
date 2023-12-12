@@ -4,7 +4,7 @@ output:
   html_document:
   css: styles.css
 ---
-  
+
 ```{css, echo=FALSE}
 body {
   font-family: 'Verdana', sans-serif;
@@ -24,14 +24,17 @@ font-size: 0.9em;
 
 ```
 
------------------------------------------------------------------------
+------------------------------------------------------------------------
 
------------------------------------------------------------------------
-  
+------------------------------------------------------------------------
+
+
+
+<br> 
 ## Welcome to my Business Analytics Website
-  
+
 <br>
-  
+
 Step into the world of the book "Data, Models, and Decisions" written by Dimitris Bertsimas and Robert M. Freund, distinguished professors from the MIT Sloan School of Management. This book, which I first encountered as a textbook during my Business Analytics Master's degree at University of California San Diego (UCSD), Rady School of Management, remains a vital resource filled with rich lessons and captivating case studies in business analytics.
 
 On this website (which is built in Shiny RStudio), I dive into these insightful case studies, offering my personal interpretations and solutions, primarily employing R or Python. It's a vibrant space for exploring the intricate connections between data, models, and decision-making in the business world.
@@ -40,14 +43,12 @@ I strive to maintain a balance between informative content and engaging analysis
 
 I welcome your thoughts, feedback, or any discussions at [businessanalyticsslee\@gmail.com](mailto:businessanalyticsslee@gmail.com) or [sanlee8495\@gmail.com](mailto:sanlee8495@gmail.com).
 
------------------------------------------------------------------------
+------------------------------------------------------------------------
 
------------------------------------------------------------------------
-
+------------------------------------------------------------------------
 
 ::: {#footer}
 ```{r echo=FALSE, results='asis'}
 cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
 ```
 :::
-    
