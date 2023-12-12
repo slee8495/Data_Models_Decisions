@@ -49,26 +49,29 @@ Speaking of excitement, I'm a huge baseball fan, especially of the LA Dodgers. M
 
 ![](Photo/golf.png){width="164"}. ![](Photo/Sangho.png){width="175"}
 
-<br> <br> 
+<br> <br>
 
 Back at home in Irvine, California, with two of my greatest joys: my adorable miniature poodle, Brownie, and my wonderful wife, Kristen. Our days are brightened by Brownie, the undisputed little boss of our home. She's a bundle of enthusiasm, always on a quest for treats and seeking out the coziest napping spots. Her playful antics and affectionate nature bring a smile to every moment.
 
-Living in Irvine offers its own charms. Whether we're soaking up the California sun, exploring local hidden gems (So many good foods in OC!), or simply enjoying a quiet day at home, every day is an adventure, though my wife and I also love to stay at home for as many as days we can 😂. 
+Living in Irvine offers its own charms. Whether we're soaking up the California sun, exploring local hidden gems (So many good foods in OC!), or simply enjoying a quiet day at home, every day is an adventure, though my wife and I also love to stay at home for as many as days we can 😂.
 
 <br>
 
-
-
 ![](Photo/family.png){width="209"}
 
-<br><br>I hope you enjoy the websites and also Feel free to visit my [LinkedIn](https://www.linkedin.com/in/slee1211), or check out what I'm up to on [GitHub](https://www.github.com/slee8495).
+<br><br>I hope you enjoy the websites and also Feel free to visit my <a href="https://www.linkedin.com/in/slee1211" target="_blank">LinkedIn</a>, or check out what I'm up to on <a href="https://www.github.com/slee8495" target="_blank">GitHub</a>.
 
+Also, check out this fun project that I've done with my study buddies
+
+<a href="https://ucsd-rsm.shinyapps.io/mgta452_group_c/" target="_blank">US Census Data Project (UCSD)</a>
+
+<br>
+<br>
 Enjoy your visit!
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
-
 
 ::: {#footer}
 ```{r echo=FALSE, results='asis'}
