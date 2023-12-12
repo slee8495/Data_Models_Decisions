@@ -29,9 +29,7 @@ font-size: 0.9em;
 ------------------------------------------------------------------------
 
 
-
-<br> 
-## Welcome to my Business Analytics Website
+# Welcome to my Business Analytics Website
 
 <br>
 
