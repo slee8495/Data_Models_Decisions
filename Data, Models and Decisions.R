@@ -190,7 +190,7 @@ output$chapter6_content <- renderUI({
   req(input$chapter6_select) 
   
   file_name <- switch(input$chapter6_select,
-                      "The Construction Department at Croq'Pain" = "the_construction_department_at_croqpain.html")
+                      "The Construction Department at Croq'Pain" = "Chapter_6_the_construction_department_at_croqpain.html")
   
   if (!is.null(file_name)) {
     tags$iframe(src = file_name, style = "width:100%; height:800px;")

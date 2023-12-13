@@ -1,0 +1,60 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+  
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+  
+I will update more
+
+Introduce a little bit,
+
+- what kind of problem are we solving, what is the story? (1 or 2 sentence)
+- what is the goal of the analysis? (1 or 2 sentence)
+- what is the result of the analysis? (1 or 2 sentence)
+- what is the conclusion of the analysis? (1 or 2 sentence)
+
+For detailed Case Story and Analysis, please click the link below.
+<br>
+[Click](https://business-analytics-slee.shinyapps.io/Chapter_6_the_construction_department_at_croqpain/)
+
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+
+
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::   
