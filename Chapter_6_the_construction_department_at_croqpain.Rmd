@@ -4,11 +4,12 @@ output:
   html_document:
   css: styles.css
 ---
-  
+
 ```{css, echo=FALSE}
 body {
   font-family: 'Verdana', sans-serif;
   display: flex;
+  font-size: 1.7em;
   flex-direction: column;
   height: 100vh; /* Full height of the viewport */
   justify-content: center; /* Center vertically */
@@ -30,31 +31,32 @@ font-size: 0.9em;
 
 ```
 
------------------------------------------------------------------------
+------------------------------------------------------------------------
 
------------------------------------------------------------------------
-  
-I will update more
+------------------------------------------------------------------------
 
-Introduce a little bit,
+## **Take a quick glance of this case study and analysis.**
 
-- what kind of problem are we solving, what is the story? (1 or 2 sentence)
-- what is the goal of the analysis? (1 or 2 sentence)
-- what is the result of the analysis? (1 or 2 sentence)
-- what is the conclusion of the analysis? (1 or 2 sentence)
-
-For detailed Case Story and Analysis, please click the link below.
 <br>
-[Click](https://business-analytics-slee.shinyapps.io/Chapter_6_the_construction_department_at_croqpain/)
 
------------------------------------------------------------------------
+**What kind of problem are we solving, what is the story?** <br>
 
------------------------------------------------------------------------
+-   We are solving a predictive modeling problem to evaluate the potential performance of restaurant locations for Croq 'Pain. The story revolves around using historical data from existing stores to predict the success of new locations. <br>
 
+**What is the goal of the analysis?** <br>
 
+-   The goal is to develop and validate a regression model using data from 60 stores, then apply this model to predict the performance of potential new store locations, ensuring they meet Croq 'Pain's performance ratio target of 26%. <br>
+
+For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/Chapter_6_the_construction_department_at_croqpain/)
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
 
 ::: {#footer}
 ```{r echo=FALSE, results='asis'}
 cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
 ```
-:::   
+:::
