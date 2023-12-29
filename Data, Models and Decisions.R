@@ -147,7 +147,7 @@ server <- function(input, output, session) {
     req(input$chapter1_select) 
     
     file_name <- switch(input$chapter1_select,
-                        "Bill Sampras Summer Job Decision" = "bill_sampras_summer_job_decision.html",
+                        "Bill Sampras Summer Job Decision" = "Chapter_1_bill_sampras_summer_job_decision.html",
                         "Bio-Imaging Development Strategies" = "bio_imaging_development_strategies.html")
     
     if (!is.null(file_name)) {
