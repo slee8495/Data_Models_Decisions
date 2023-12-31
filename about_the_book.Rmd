@@ -38,7 +38,7 @@ font-size: 0.9em;
 ![](Photo/book.png){width="340"}
 
 <br><br>
-This is the book called "Data, Models, and Decisions" by Dimitris Bertsimas and Robert M. Freund which I will cover the case studies throughout in ths website. This book has significantly fueled my understanding of analytics, particularly in its fundamental aspects, ever since I discovered it during my studies at UC San Diego. In my opinion, it offers a different perspective on analytics, more engaging than what you'd typically expect from a textbook.
+This is the book called "Data, Models, and Decisions" by Dimitris Bertsimas and Robert M. Freund which I will cover the case studies throughout in this website. This book has significantly fueled my understanding of analytics, particularly in its fundamental aspects, ever since I discovered it during my studies at UC San Diego. In my opinion, it offers a different perspective on analytics, more engaging than what you'd typically expect from a textbook.
 
 The book covers a variety of topics, starting with decision trees. These are tools that help you systematically think through choices and their potential outcomes. It's a practical approach to decision-making. Then, it moves into probability and statistics, laying a solid foundation for understanding data.
 
