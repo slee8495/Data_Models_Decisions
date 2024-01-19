@@ -41,7 +41,7 @@ Hello! I'm Sangho Lee, a dedicated data analyst at Ventura Foods where I am curr
 
 At Ventura Foods, my day-to-day is all about making things easier and more insightful through automation and dashboards, thanks to the magic of R and R Shiny. I believe in the power of data to tell stories and guide decisions, and I love turning complex data into clear, actionable insights.
 
-This website? It's my digital sandbox. Inspired by "Data, Models, and Decisions" by Dimitris Bertsimas and Robert M. Freund, it's where I unpack case studies using R and Python, hoping to spark conversations and share a-ha moments about data and decisions in the business world.
+This website is inspired by "Data, Models, and Decisions" by Dimitris Bertsimas and Robert M. Freund, it's where I unpack case studies using R and Python, hoping to spark conversations and share a-ha moments about data and decisions in the business world.
 
 <br><br>When I'm not crunching numbers or codings, you'll likely find me on the golf course or cheering for the LA Dodgers. Golf is my way to unwind -- there's nothing like the peace of hitting the fairways, and every round is a new adventure. It's my mini-vacation from the daily grind.
 
