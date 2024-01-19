@@ -28,6 +28,9 @@ font-size: 0.9em;
 
 ------------------------------------------------------------------------
 
+![](Photo/home.jpg)
+
+<br>
 
 # Welcome to my Business Analytics Website
 
@@ -40,6 +43,8 @@ On this website (which is built in Shiny RStudio), I dive into these insightful 
 I strive to maintain a balance between informative content and engaging analysis, ensuring that the experience remains fun and exciting without being boring!
 
 I welcome your thoughts, feedback, or any discussions at [businessanalyticsslee\@gmail.com](mailto:businessanalyticsslee@gmail.com) or [sanlee8495\@gmail.com](mailto:sanlee8495@gmail.com).
+
+<br>
 
 ------------------------------------------------------------------------
 

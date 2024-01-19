@@ -1,0 +1,70 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/bio_imaging_development_strategies.jpg)
+
+<br>
+
+## **Take a quick glance of this case study and analysis.**
+
+<br>
+
+**What kind of problem are we solving, what is the story?** <br>
+
+We're solving a strategic business decision problem for Bio-Imaging, Incorporated. The founders must choose between various funding and development paths for their medical diagnostic software. They need to decide whether to accept an immediate buyout offer, pursue government grants, or partner with a venture capital firm, each with different implications for the future of their product and company. <br>
+
+**What is the story?**<br> The story revolves around Bio-Imaging, Incorporated, a company formed to develop and market advanced medical imaging software. The software can construct three-dimensional images of patients' brains from MRI scans, aiding in the diagnosis of brain lesions and tumors. The company, founded by graduates from MIT and a professor from MGH, must navigate the complexities of funding and product development to bring their innovation to market.<br>
+
+**What is the goal of the analysis?** <br>
+
+The goal of the analysis is to evaluate the potential financial outcomes of each strategic decision using a decision tree, which includes the probabilities of different scenarios and the associated monetary values. By comparing the expected monetary value (EMV) of each branch of the decision tree, the founders aim to choose the path that offers the best financial outcome while managing the risks involved. <br><br>
+
+For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/Chapter_1_bio_imaging_development_strategies/)
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::

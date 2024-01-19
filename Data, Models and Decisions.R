@@ -148,7 +148,7 @@ server <- function(input, output, session) {
     
     file_name <- switch(input$chapter1_select,
                         "Bill Sampras Summer Job Decision" = "Chapter_1_bill_sampras_summer_job_decision.html",
-                        "Bio-Imaging Development Strategies" = "bio_imaging_development_strategies.html")
+                        "Bio-Imaging Development Strategies" = "Chapter_1_bio_imaging_development_strategies.html")
     
     if (!is.null(file_name)) {
       tags$iframe(src = file_name, style = "width:100%; height:800px;")

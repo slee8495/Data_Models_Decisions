@@ -35,6 +35,10 @@ font-size: 0.9em;
 
 ------------------------------------------------------------------------
 
+![](Photo/the_construction_department_at_croqpain.jpg)
+
+<br>
+
 ## **Take a quick glance of this case study and analysis.**
 
 <br>
@@ -45,7 +49,7 @@ font-size: 0.9em;
 
 **What is the goal of the analysis?** <br>
 
--   The goal is to develop and validate a regression model using data from 60 stores, then apply this model to predict the performance of potential new store locations, ensuring they meet Croq 'Pain's performance ratio target of 26%. 
+-   The goal is to develop and validate a regression model using data from 60 stores, then apply this model to predict the performance of potential new store locations, ensuring they meet Croq 'Pain's performance ratio target of 26%.
 
 <br><br>
 
@@ -53,7 +57,7 @@ For detailed Case Story and Analysis, please click the link below. <br><br><br><
 
 ### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/Chapter_6_the_construction_department_at_croqpain/)
 
-------------------------------------------------------------------------
+## <br>
 
 ------------------------------------------------------------------------
 
