@@ -38,7 +38,7 @@ font-size: 0.9em;
 
 Step into the world of the book "Data, Models, and Decisions" written by Dimitris Bertsimas and Robert M. Freund, distinguished professors from the MIT Sloan School of Management. This book, which I first encountered as a textbook during my Business Analytics Master's degree at University of California San Diego (UCSD), Rady School of Management, remains a vital resource filled with rich lessons and captivating case studies in business analytics.
 
-On this website (which is built in Shiny RStudio), I dive into these insightful case studies, offering my personal interpretations and solutions, primarily employing R or Python. It's a vibrant space for exploring the intricate connections between data, models, and decision-making in the business world.
+On this website (built in R Shiny), I dive into these insightful case studies, offering my personal interpretations and solutions, primarily employing R or Python. It's a vibrant space for exploring the intricate connections between data, models, and decision-making in the business world.
 
 I strive to maintain a balance between informative content and engaging analysis, ensuring that the experience remains fun and exciting without being boring!
 
