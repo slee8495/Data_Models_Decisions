@@ -38,11 +38,6 @@ ui <- fluidPage(
                                                   "Bio-Imaging Development Strategies")),
                           uiOutput("chapter1_content"))),
                
-               tabPanel("Chapter 2: Fundamentals of Discrete Probability", value = "chapter2",
-                        fluidPage(
-                          pickerInput("chapter2_select", "Choose a Case:",
-                                      choices = c("Development of a new consumer Product")),
-                          uiOutput("chapter2_content"))),
                
                tabPanel("Chapter 6: Regression Models: Concepts and Practice", value = "chpater6",
                         fluidPage(
@@ -159,25 +154,6 @@ server <- function(input, output, session) {
     active_tab(input$main_nav)
   })
   
-
-
-################################## Chapter 2: Fundamentals of Discrete Probability ###########################################
-
-
-output$chapter2_content <- renderUI({
-  req(input$chapter2_select) 
-  
-  file_name <- switch(input$chapter2_select,
-                      "Development of a new consumer Product" = "development_of_a_new_consumer_product.html")
-  
-  if (!is.null(file_name)) {
-    tags$iframe(src = file_name, style = "width:100%; height:800px;")
-  }
-})
-
-observeEvent(input$main_nav, {
-  active_tab(input$main_nav)
-})
 
 
 
