@@ -48,7 +48,11 @@ ui <- fluidPage(
     ),
     navbarMenu("Real Field - Hands on Applied Projects",
                tabPanel("Supply Chain Analytics", value = "sc_analytics",
-                        fluidPage()),
+                        fluidPage(
+                          pickerInput("sup1_select", "Choose a Case:",
+                                      choices = c("Under Construction: Analyizing")),
+                          uiOutput("sup1_content")
+                        )),
                
                
                tabPanel("People Analytics", value = "pep_analytics",
@@ -192,15 +196,35 @@ observeEvent(input$main_nav, {
 
 
 
+################################## Supply Chain Analytics ###########################################
 
-################################## People Analytics ###########################################
+
+output$sup1_content <- renderUI({
+  req(input$sup1_select) 
+  
+  file_name <- switch(input$sup1_select,
+                      "Under Construction: Analyzing" = "under_construction.html")
+  
+  if (!is.null(file_name)) {
+    tags$iframe(src = file_name, style = "width:100%; height:800px;")
+  }
+})
+
+observeEvent(input$main_nav, {
+  active_tab(input$main_nav)
+})
+
+
+
+
+################################## People Analytics - Forecasting Attrition rate ###########################################
 
 
 output$pep1_content <- renderUI({
   req(input$pep1_select) 
   
   file_name <- switch(input$pep1_select,
-                      "Forecasting Attrition Rates for Each Manufacturing Facility" = "Chapter_6_the_construction_department_at_croqpain.html")
+                      "Forecasting Attrition Rates for Each Manufacturing Facility" = "people_analytics_forecasting_attrition_rate.html")
   
   if (!is.null(file_name)) {
     tags$iframe(src = file_name, style = "width:100%; height:800px;")
