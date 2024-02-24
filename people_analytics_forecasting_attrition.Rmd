@@ -1,0 +1,68 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/people_analytics_forecasting_attrition.png)
+
+<br>
+
+## **Take a quick glance of this case study and analysis.**
+
+<br>
+
+**What kind of problem are we solving, what is the story?** <br>
+
+-   We are tackling a predictive analytics problem involving the assessment of employee turnover likelihood within the next year at various plants. The narrative focuses on utilizing current hiring metrics and historical turnover rates to pinpoint predictors of high turnover, which in turn assists in managing and improving retention strategies for the workforce. <br>
+
+**What is the goal of the analysis?** <br>
+
+-   The objective of the analysis is to design a logistic regression model that can reliably forecast high turnover at different plant locations, using variables such as external and internal openings, hires, and terminations from various fiscal years. This model aims to equip management with actionable insights, enabling them to implement strategic interventions where they are most needed to reduce employee turnover effectively.
+
+<br><br>
+
+For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/portfolio_people_analytics/)
+
+## <br>
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::

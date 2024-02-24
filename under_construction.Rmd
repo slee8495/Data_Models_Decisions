@@ -1,16 +1,41 @@
+---
 
+---
 
-<br><br><br><br>
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+}
 
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 1.2em;
+}
 
-
+```
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
-🚧🚧 Under Construction 🚧🚧
+🚧🚧 **Under Construction
+** 🚧🚧
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::
+
+

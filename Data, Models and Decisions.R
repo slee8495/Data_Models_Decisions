@@ -224,7 +224,7 @@ output$pep1_content <- renderUI({
   req(input$pep1_select) 
   
   file_name <- switch(input$pep1_select,
-                      "Forecasting Attrition Rates for Each Manufacturing Facility" = "people_analytics_forecasting_attrition_rate.html")
+                      "Forecasting Attrition Rates for Each Manufacturing Facility" = "people_analytics_forecasting_attrition.html")
   
   if (!is.null(file_name)) {
     tags$iframe(src = file_name, style = "width:100%; height:800px;")
