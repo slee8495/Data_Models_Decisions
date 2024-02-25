@@ -39,13 +39,13 @@ Hello! I'm Sangho Lee, a dedicated data analyst at Ventura Foods where I am curr
 
 <br><br> My data journey didn't start in a classroom; it began hands-on, with lots of coding and real-world problem-solving. Keen to dive deeper, I headed to UC San Diego for a Master's in Business Analytics, which turned out to be a fantastic playground for my data-driven curiosity.
 
-At Ventura Foods, my day-to-day is all about making things easier and more insightful through automation and dashboards, thanks to the magic of R and R Shiny. I believe in the power of data to tell stories and guide decisions, and I love turning complex data into clear, actionable insights.
+At Ventura Foods, my day-to-day is about making things easier and more insightful through automation and dashboards. I believe in the power of data to tell stories and guide decisions, and I love turning complex data into clear, actionable insights.
 
-This website is inspired by "Data, Models, and Decisions" by Dimitris Bertsimas and Robert M. Freund, it's where I unpack case studies using R and Python, hoping to spark conversations and share a-ha moments about data and decisions in the business world.
+This website is inspired by "Data, Models, and Decisions" by Dimitris Bertsimas and Robert M. Freund, it's where I unpack case studies to share a-ha moments about data and decisions in the business world.
 
-<br><br>When I'm not crunching numbers or codings, you'll likely find me on the golf course or cheering for the LA Dodgers. Golf is my way to unwind -- there's nothing like the peace of hitting the fairways, and every round is a new adventure. It's my mini-vacation from the daily grind.
+<br><br>When I'm not crunching numbers or codings, I can be found on the golf course. Golf is my way to unwind -- there's nothing like the peace of hitting the fairways! 
 
-Speaking of excitement, I'm a huge baseball fan, especially of the LA Dodgers. My first game at Dodger Stadium was an unforgettable experience -- the energy, the fans, and that unforgettable feeling of being part of something bigger. It's been a thrill ride ever since! 🏌️⚾
+Speaking of excitement, I'm a big baseball fan, especially of the LA Dodgers. My first Major League baseball game was at the dodger stadium which was an unforgettable experience -- the energy, the fans, and that unforgettable feeling of being part of something bigger. It's been a thrill ride ever since! 🏌️⚾
 
 ![](Photo/golf.png){width="164"}. ![](Photo/Sangho.png){width="175"}
 
