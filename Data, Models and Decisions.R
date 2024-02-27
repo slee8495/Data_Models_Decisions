@@ -50,7 +50,7 @@ ui <- fluidPage(
                tabPanel("Supply Chain Analytics", value = "sc_analytics",
                         fluidPage(
                           pickerInput("sup1_select", "Choose a Case:",
-                                      choices = c("Under Construction: Analyizing")),
+                                      choices = c("Clustering Analysis: Late Order Acknowledgement")),
                           uiOutput("sup1_content")
                         )),
                
@@ -203,7 +203,7 @@ output$sup1_content <- renderUI({
   req(input$sup1_select) 
   
   file_name <- switch(input$sup1_select,
-                      "Under Construction: Analyzing" = "under_construction.html")
+                      "Clustering Analysis: Late Order Acknowledgement" = "supply_chain_analytics_late_order_clustering.html")
   
   if (!is.null(file_name)) {
     tags$iframe(src = file_name, style = "width:100%; height:800px;")

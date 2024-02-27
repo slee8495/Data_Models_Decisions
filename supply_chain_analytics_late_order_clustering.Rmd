@@ -1,0 +1,68 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/supply_chain_analytics_late_order_ack_clustering.png)
+
+<br>
+
+## **Take a quick glance of this case study and analysis.**
+
+<br>
+
+**What kind of problem are we solving, what is the story?** <br>
+
+-   Cluster analysis centered around order acknowledgment times from a dataset detailing various orders' processing parameters. This unfolds as an investigation to understand underlying patterns or segments within the order processing times, possibly influenced by various factors. By doing so, I aim to expose insights into how different types of orders group together based on acknowledgment timeframes, potentially unveiling operational inefficiencies or highlighting ideal performance segments. <br>
+
+**What is the goal of the analysis?** <br>
+
+-   The primary aim of this analysis is to employ clustering techniques to categorize orders into meaningful groups based on similarities in their acknowledgment times and possibly other relevant factors. Through this, I intend to identify distinct patterns or groupings that can inform strategic business decisions, enhance operational efficiency, and improve customer satisfaction by pinpointing areas for improvement in order processing.
+
+<br><br>
+
+For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/supply_chain_analysis_late_order_ack/)
+
+## <br>
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::
