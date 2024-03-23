@@ -57,8 +57,6 @@ We're solving a strategic business decision problem for Bio-Imaging, Incorporate
 
 The goal of the analysis is to evaluate the potential financial outcomes of each strategic decision using a decision tree, which includes the probabilities of different scenarios and the associated monetary values. By comparing the expected monetary value (EMV) of each branch of the decision tree, the founders aim to choose the path that offers the best financial outcome while managing the risks involved. <br><br>
 
-For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
-
 
 <br>
 

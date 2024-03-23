@@ -55,9 +55,6 @@ font-size: 0.9em;
 
 -   The primary aim of this analysis is to employ clustering techniques to categorize orders into meaningful groups based on similarities in their acknowledgment times and possibly other relevant factors. Through this, I intend to identify distinct patterns or groupings that can inform strategic business decisions, enhance operational efficiency, and improve customer satisfaction by pinpointing areas for improvement in order processing.
 
-<br><br>
-
-For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
 
 
 ## <br>
