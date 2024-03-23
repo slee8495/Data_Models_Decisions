@@ -39,6 +39,10 @@ font-size: 0.9em;
 
 <br>
 
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/Chapter_1_bio_imaging_development_strategies/)
+
+<br>
+
 ## **Take a quick glance of this case study and analysis.**
 
 <br>
@@ -55,7 +59,6 @@ The goal of the analysis is to evaluate the potential financial outcomes of each
 
 For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
 
-### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/Chapter_1_bio_imaging_development_strategies/)
 
 <br>
 

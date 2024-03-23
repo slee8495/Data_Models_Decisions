@@ -39,6 +39,10 @@ font-size: 0.9em;
 
 <br>
 
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/Chapter_1_bill_sampras_summer_job_decision/)
+
+<br>
+
 ## **Take a quick glance of this case study and analysis.**
 
 <br>
@@ -53,7 +57,6 @@ The goal is to construct and analyze a decision tree that represents Bill's summ
 
 For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
 
-### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/Chapter_1_bill_sampras_summer_job_decision/)
 
 <br>
 

@@ -39,6 +39,11 @@ font-size: 0.9em;
 
 <br>
 
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/portfolio_people_analytics/)
+
+
+<br>
+
 ## **Take a quick glance of this case study and analysis.**
 
 <br>
@@ -55,7 +60,6 @@ font-size: 0.9em;
 
 For detailed Case Story and Analysis, please click the link below. <br><br><br><br>
 
-### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/portfolio_people_analytics/)
 
 ## <br>
 
