@@ -34,8 +34,8 @@ ui <- fluidPage(
                tabPanel("Chapter 1: Decision Analysis", value = "chapter1",
                         fluidPage(
                           pickerInput("chapter1_select", "Choose a Case:",
-                                      choices = c("Bill Sampras Summer Job Decision", 
-                                                  "Bio-Imaging Development Strategies")),
+                                      choices = c("Bio-Imaging Development Strategies", 
+                                                  "Bill Sampras Summer Job Decision")),
                           uiOutput("chapter1_content"))),
                
                
@@ -159,8 +159,8 @@ server <- function(input, output, session) {
     req(input$chapter1_select) 
     
     file_name <- switch(input$chapter1_select,
-                        "Bill Sampras Summer Job Decision" = "Chapter_1_bill_sampras_summer_job_decision.html",
-                        "Bio-Imaging Development Strategies" = "Chapter_1_bio_imaging_development_strategies.html")
+                        "Bio-Imaging Development Strategies" = "Chapter_1_bio_imaging_development_strategies.html",
+                        "Bill Sampras Summer Job Decision" = "Chapter_1_bill_sampras_summer_job_decision.html")
     
     if (!is.null(file_name)) {
       tags$iframe(src = file_name, style = "width:100%; height:800px;")
