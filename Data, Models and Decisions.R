@@ -61,13 +61,7 @@ ui <- fluidPage(
                                       choices = c("Forecasting Attrition Rates for Each Manufacturing Facility")),
                           uiOutput("pep1_content")
                         )),
-               
-               tabPanel("Customer Analytics", value = "cu_analytics",
-                        fluidPage(
-                          pickerInput("cus1_select", "Choose a Case:",
-                                      choices = c(" ")),
-                          uiOutput("cus1_content")
-                        )),
+              
                
                tabPanel("Marketing Analytics", value = "mk_analytics",
                         fluidPage(
