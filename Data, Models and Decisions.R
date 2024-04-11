@@ -46,7 +46,7 @@ ui <- fluidPage(
                           uiOutput("chapter6_content")))
                
     ),
-    navbarMenu("Real Field - Hands on Applied Projects",
+    navbarMenu("Business Analytics Cases",
                tabPanel("Supply Chain Analytics", value = "sc_analytics",
                         fluidPage(
                           pickerInput("sup1_select", "Choose a Case:",
@@ -60,6 +60,20 @@ ui <- fluidPage(
                           pickerInput("pep1_select", "Choose a Case:",
                                       choices = c("Forecasting Attrition Rates for Each Manufacturing Facility")),
                           uiOutput("pep1_content")
+                        )),
+               
+               tabPanel("Customer Analytics", value = "cu_analytics",
+                        fluidPage(
+                          pickerInput("cus1_select", "Choose a Case:",
+                                      choices = c(" ")),
+                          uiOutput("cus1_content")
+                        )),
+               
+               tabPanel("Marketing Analytics", value = "mk_analytics",
+                        fluidPage(
+                          pickerInput("mar1_select", "Choose a Case:",
+                                      choices = c("AB Testing")),
+                          uiOutput("mar1_content")
                         ))
                
     ),
