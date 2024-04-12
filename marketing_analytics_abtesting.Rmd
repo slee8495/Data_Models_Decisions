@@ -1,0 +1,66 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/marketing_analytics_abtesting.png)
+
+<br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/data_models_decisions_marketing_abtesting/)
+
+<br>
+
+## **Take a quick glance of this case study and analysis.**
+
+<br>
+
+**What kind of problem are we solving, what is the story?** <br>
+
+-   I am addressing a field experiment evaluation problem focused on determining the effectiveness of different fundraising approaches in increasing donation rates. This study forms part of a project for the UC San Diego, MSBA program; MGTA 495 - Marketing Analytics course. <br>
+
+**What is the goal of the analysis?** <br>
+
+-   The goal of the analysis is to develop a statistical model to compare the success rates of the three different types of fundraising letters. The model will evaluate which approach is most effective in generating donations and will provide insights into how variations in message framing can impact donor behavior. Ultimately, this analysis will help guide fundraising strategies by identifying the most effective methods for soliciting donations, thus enabling more efficient and targeted fundraising campaigns.
+
+## <br>
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::
