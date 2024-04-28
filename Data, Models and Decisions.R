@@ -66,7 +66,9 @@ ui <- fluidPage(
                tabPanel("Marketing Analytics", value = "mar_analytics",
                         fluidPage(
                           pickerInput("mar1_select", "Choose a Case:",
-                                      choices = c("A/B Testing [Fund raising: Donation]")),
+                                      choices = c("A/B Testing [Fund raising: Donation]",
+                                                  "Maximum Likelihood Estimation [Blueprinty]",
+                                                  "Maximum Likelihood Estimation [Air BnB]")),
                           uiOutput("mar1_content")
                         ))
                
@@ -251,7 +253,9 @@ output$mar1_content <- renderUI({
   req(input$mar1_select) 
   
   file_name <- switch(input$mar1_select,
-                      "A/B Testing [Fund raising: Donation]" = "marketing_analytics_abtesting.html")
+                      "A/B Testing [Fund raising: Donation]" = "marketing_analytics_abtesting.html",
+                      "Maximum Likelihood Estimation [Blueprinty]" = "marketing_analytics_mle.html",
+                      "Maximum Likelihood Estimation [Air BnB]" = "marketing_analytics_mle_2.html")
   
   if (!is.null(file_name)) {
     tags$iframe(src = file_name, style = "width:100%; height:800px;")

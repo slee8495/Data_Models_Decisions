@@ -1,0 +1,66 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/marketing_analytics_mle.png){width="718"}
+
+<br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/data_models_decisions_marketing_mle/)
+
+<br>
+
+## **Take a quick glance of this case study and analysis.**
+
+<br>
+
+**What kind of problem are we solving, what is the story?** <br>
+
+-   We're exploring a marketing claim for Blueprinty, a software firm specializing in tools for developing patent blueprints. The goal is to show that using Blueprinty's software increases the success rate of patent approvals. This study forms part of a project for the UC San Diego, MSBA program; MGTA 495 - Marketing Analytics course. <br>
+
+**What is the goal of the analysis?** <br>
+
+-   The analysis aims to identify if there's a significant correlation between using Blueprinty's software and the number of patents awarded to these 1,500 firms over the last 5 years. The analysis will provide insights into the effectiveness of Blueprinty's software in increasing patent approvals and will help guide marketing strategies by identifying the most effective methods for promoting the software to potential clients.
+
+## <br>
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::
