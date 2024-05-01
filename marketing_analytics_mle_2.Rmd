@@ -53,7 +53,7 @@ font-size: 0.9em;
 
 **What is the goal of the analysis?** <br>
 
--  The goal is to analyze the 40,000 Airbnb listings from New York City to identify patterns and trends. 
+-  This analysis aims to identify the most profitable Airbnb business model by examining how room type affects pricing strategies and guest feedback, focusing on median prices, price spread, and outliers across Private rooms, Entire homes/apartments, and Shared rooms. The analysis will provide insights into the most profitable room type and help guide marketing strategies by identifying the most effective methods for promoting Airbnb listings to potential guests.
 
 ## <br>
 
