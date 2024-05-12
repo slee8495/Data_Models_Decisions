@@ -69,7 +69,8 @@ ui <- fluidPage(
                                       choices = c("A/B Testing [Fund raising: Donation]",
                                                   "Maximum Likelihood Estimation [Blueprinty]",
                                                   "Maximum Likelihood Estimation [Air BnB]",
-                                                  "Multi-nomial Logit (MNL) Model [Yogurt]")),
+                                                  "Multi-nomial Logit (MNL) Model [Yogurt]",
+                                                  "Multi-nomial Logit (MNL) Model [Minivan]")),
                           uiOutput("mar1_content")
                         ))
                
@@ -257,7 +258,8 @@ output$mar1_content <- renderUI({
                       "A/B Testing [Fund raising: Donation]" = "marketing_analytics_abtesting.html",
                       "Maximum Likelihood Estimation [Blueprinty]" = "marketing_analytics_mle.html",
                       "Maximum Likelihood Estimation [Air BnB]" = "marketing_analytics_mle_2.html",
-                      "Multi-nomial Logit (MNL) Model [Yogurt]" = "marketing_analytics_mnl_conjoint.html")
+                      "Multi-nomial Logit (MNL) Model [Yogurt]" = "marketing_analytics_mnl_conjoint.html",
+                      "Multi-nomial Logit (MNL) Model [Minivan]" = "marketing_analytics_mnl_conjoint_2.html")
   
   if (!is.null(file_name)) {
     tags$iframe(src = file_name, style = "width:100%; height:800px;")

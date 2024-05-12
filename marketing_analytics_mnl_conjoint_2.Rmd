@@ -1,0 +1,66 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/marketing_analytics_mnl_conjoint_2.png)
+
+<br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/data_models_decisions_marketing_mnl_conjoint_2/)
+
+<br>
+
+## **Take a quick glance of this case study and analysis.**
+
+<br>
+
+**What kind of problem are we solving, what is the story?** <br>
+
+-   We aim to understand consumer preferences for minivans through a conjoint survey that captures various attributes of each minivan, such as seating capacity, cargo space, engine type, and price. The dataset includes responses from several consumers who made multiple choices among different minivan configurations. By analyzing their responses, we will determine which attributes are most influential in consumer decision-making. This study forms part of a project for the UC San Diego, MSBA program; MGTA 495 - Marketing Analytics course. <br>
+
+**What is the goal of the analysis?** <br>
+
+-   The goal is to build a Multinomial Logit (MNL) model to estimate the relative preferences of different minivan attributes. This model will identify which attributes (e.g., more seats or larger cargo space) are most preferred and convert the price coefficient into a "dollar-per-util" value to compare the monetary worth of different features.
+
+## <br>
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::
