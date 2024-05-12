@@ -68,7 +68,8 @@ ui <- fluidPage(
                           pickerInput("mar1_select", "Choose a Case:",
                                       choices = c("A/B Testing [Fund raising: Donation]",
                                                   "Maximum Likelihood Estimation [Blueprinty]",
-                                                  "Maximum Likelihood Estimation [Air BnB]")),
+                                                  "Maximum Likelihood Estimation [Air BnB]",
+                                                  "Multi-nomial Logit (MNL) Model [Yogurt]")),
                           uiOutput("mar1_content")
                         ))
                
@@ -227,7 +228,7 @@ observeEvent(input$main_nav, {
 
 
 
-################################## People Analytics - Forecasting Attrition rate ###########################################
+################################## People Analytics ###########################################
 
 
 output$pep1_content <- renderUI({
@@ -246,7 +247,7 @@ observeEvent(input$main_nav, {
 })
 
 
-################################## Marketing Analytics - AB Testing ###########################################
+################################## Marketing Analytics ###########################################
 
 
 output$mar1_content <- renderUI({
@@ -255,7 +256,8 @@ output$mar1_content <- renderUI({
   file_name <- switch(input$mar1_select,
                       "A/B Testing [Fund raising: Donation]" = "marketing_analytics_abtesting.html",
                       "Maximum Likelihood Estimation [Blueprinty]" = "marketing_analytics_mle.html",
-                      "Maximum Likelihood Estimation [Air BnB]" = "marketing_analytics_mle_2.html")
+                      "Maximum Likelihood Estimation [Air BnB]" = "marketing_analytics_mle_2.html",
+                      "Multi-nomial Logit (MNL) Model [Yogurt]" = "marketing_analytics_mnl_conjoint.html")
   
   if (!is.null(file_name)) {
     tags$iframe(src = file_name, style = "width:100%; height:800px;")
