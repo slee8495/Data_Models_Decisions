@@ -47,6 +47,17 @@ ui <- fluidPage(
                
     ),
     navbarMenu("Business Analytics Cases",
+               tabPanel("Marketing Analytics", value = "mar_analytics",
+                        fluidPage(
+                          pickerInput("mar1_select", "Choose a Case:",
+                                      choices = c("A/B Testing [Fund raising: Donation]",
+                                                  "Maximum Likelihood Estimation [Blueprinty]",
+                                                  "Maximum Likelihood Estimation [Air BnB]",
+                                                  "Multi-nomial Logit (MNL) Model [Yogurt]",
+                                                  "Multi-nomial Logit (MNL) Model [Minivan]")),
+                          uiOutput("mar1_content")
+                        )),
+               
                tabPanel("Supply Chain Analytics", value = "sc_analytics",
                         fluidPage(
                           pickerInput("sup1_select", "Choose a Case:",
@@ -60,18 +71,6 @@ ui <- fluidPage(
                           pickerInput("pep1_select", "Choose a Case:",
                                       choices = c("Forecasting Attrition Rates for Each Manufacturing Facility")),
                           uiOutput("pep1_content")
-                        )),
-              
-               
-               tabPanel("Marketing Analytics", value = "mar_analytics",
-                        fluidPage(
-                          pickerInput("mar1_select", "Choose a Case:",
-                                      choices = c("A/B Testing [Fund raising: Donation]",
-                                                  "Maximum Likelihood Estimation [Blueprinty]",
-                                                  "Maximum Likelihood Estimation [Air BnB]",
-                                                  "Multi-nomial Logit (MNL) Model [Yogurt]",
-                                                  "Multi-nomial Logit (MNL) Model [Minivan]")),
-                          uiOutput("mar1_content")
                         ))
                
     ),
@@ -207,6 +206,30 @@ observeEvent(input$main_nav, {
 })
 
 
+################################## Marketing Analytics ###########################################
+
+
+output$mar1_content <- renderUI({
+  req(input$mar1_select) 
+  
+  file_name <- switch(input$mar1_select,
+                      "A/B Testing [Fund raising: Donation]" = "marketing_analytics_abtesting.html",
+                      "Maximum Likelihood Estimation [Blueprinty]" = "marketing_analytics_mle.html",
+                      "Maximum Likelihood Estimation [Air BnB]" = "marketing_analytics_mle_2.html",
+                      "Multi-nomial Logit (MNL) Model [Yogurt]" = "marketing_analytics_mnl_conjoint.html",
+                      "Multi-nomial Logit (MNL) Model [Minivan]" = "marketing_analytics_mnl_conjoint_2.html")
+  
+  if (!is.null(file_name)) {
+    tags$iframe(src = file_name, style = "width:100%; height:800px;")
+  }
+})
+
+observeEvent(input$main_nav, {
+  active_tab(input$main_nav)
+})
+
+
+
 
 ################################## Supply Chain Analytics ###########################################
 
@@ -246,30 +269,6 @@ output$pep1_content <- renderUI({
 observeEvent(input$main_nav, {
   active_tab(input$main_nav)
 })
-
-
-################################## Marketing Analytics ###########################################
-
-
-output$mar1_content <- renderUI({
-  req(input$mar1_select) 
-  
-  file_name <- switch(input$mar1_select,
-                      "A/B Testing [Fund raising: Donation]" = "marketing_analytics_abtesting.html",
-                      "Maximum Likelihood Estimation [Blueprinty]" = "marketing_analytics_mle.html",
-                      "Maximum Likelihood Estimation [Air BnB]" = "marketing_analytics_mle_2.html",
-                      "Multi-nomial Logit (MNL) Model [Yogurt]" = "marketing_analytics_mnl_conjoint.html",
-                      "Multi-nomial Logit (MNL) Model [Minivan]" = "marketing_analytics_mnl_conjoint_2.html")
-  
-  if (!is.null(file_name)) {
-    tags$iframe(src = file_name, style = "width:100%; height:800px;")
-  }
-})
-
-observeEvent(input$main_nav, {
-  active_tab(input$main_nav)
-})
-
 
 
 
