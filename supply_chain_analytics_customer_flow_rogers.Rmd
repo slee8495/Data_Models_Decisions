@@ -1,0 +1,66 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/supply_chain_analytics_rogers.png)
+
+<br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/data_models_decisions_supplychain_rogers/)
+
+<br>
+
+## **Take a quick glance of this case study and analysis.**
+
+<br>
+
+**What kind of problem are we solving, what is the story?** <br>
+
+-   We are analyzing customer flow and behavior at the Rogers market, which utilizes Amazon's Just Walk Out technology. By examining customer entry and exit patterns, as well as the duration of their shopping trips, we aim to understand the dynamics of store traffic. This study is part of a project for the UC San Diego, MSBA program; MGTA 456 - Supply Chain Analytics course. <br>
+
+**What is the goal of the analysis?** <br>
+
+-   The objective is to create a detailed inventory build-up diagram and analyze customer entry patterns. Specifically, we aim to determine how many customers are present in the store at any given minute, how many enter the store in 15-minute intervals, and calculate the average flow time using Little's Law. This analysis will help us understand peak shopping times, customer dwell time, and overall store traffic, providing insights to optimize store operations and enhance the shopping experience.
+
+## <br>
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::
