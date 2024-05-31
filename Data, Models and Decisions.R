@@ -63,7 +63,8 @@ ui <- fluidPage(
                         fluidPage(
                           pickerInput("sup1_select", "Choose a Case:",
                                       choices = c("Clustering Analysis [Late Order Acknowledgement]",
-                                                  "Customer Flow Analysis [Rogers Market: Amazon Just Walk Out Technology]")),
+                                                  "Customer Flow Analysis [Rogers Market: Amazon Just Walk Out Technology]",
+                                                  "Distribution Center Cost Comparison: Regional vs. National")),
                           uiOutput("sup1_content")
                         )),
                
@@ -242,7 +243,8 @@ output$sup1_content <- renderUI({
   
   file_name <- switch(input$sup1_select,
                       "Clustering Analysis [Late Order Acknowledgement]" = "supply_chain_analytics_late_order_clustering.html",
-                      "Customer Flow Analysis [Rogers Market: Amazon Just Walk Out Technology]" = "supply_chain_analytics_customer_flow_rogers.html")
+                      "Customer Flow Analysis [Rogers Market: Amazon Just Walk Out Technology]" = "supply_chain_analytics_customer_flow_rogers.html",
+                      "Distribution Center Cost Comparison: Regional vs. National" = "supply_chain_analytics_distribution_center_cost_comparison.html")
   
   if (!is.null(file_name)) {
     tags$iframe(src = file_name, style = "width:100%; height:800px;")
