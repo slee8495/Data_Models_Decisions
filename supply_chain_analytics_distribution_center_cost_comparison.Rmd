@@ -39,7 +39,7 @@ font-size: 0.9em;
 
 <br>
 
-### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/supply_chain_analysis_distribution_center_cost_comparison/)
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/data_models_decisions_supplychain_distribution/)
 
 <br>
 
