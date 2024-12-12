@@ -66,7 +66,7 @@ ui <- fluidPage(
                                       choices = c("Clustering Analysis [Late Order Acknowledgement]",
                                                   "Distribution Center Cost Comparison: Regional vs. National",
                                                   "Customer Flow Analysis [Rogers Market: Amazon Just Walk Out Technology]"
-                                                  )),
+                                      )),
                           uiOutput("sup1_content")
                         )),
                
@@ -76,6 +76,13 @@ ui <- fluidPage(
                           pickerInput("pep1_select", "Choose a Case:",
                                       choices = c("Forecasting Attrition Rates for Each Manufacturing Facility")),
                           uiOutput("pep1_content")
+                        )),
+               
+               tabPanel("Managerial Judg/Decis Making", value = "managerial_decision_making",
+                        fluidPage(
+                          pickerInput("majd1_select", "Decision Making Game:",
+                                      choices = c("Decision Making Game: A Reflection on Managerial Judgment and Decision Making Class from UCSD")),
+                          uiOutput("majd1_content")
                         ))
                
     ),
@@ -187,106 +194,123 @@ server <- function(input, output, session) {
     active_tab(input$main_nav)
   })
   
-
-
-
-
-
-################################## Chapter 6: Regression Models: Concepts and Practice ###########################################
-
-
-output$chapter6_content <- renderUI({
-  req(input$chapter6_select) 
   
-  file_name <- switch(input$chapter6_select,
-                      "The Construction Department at Croq'Pain" = "Chapter_6_the_construction_department_at_croqpain.html")
   
-  if (!is.null(file_name)) {
-    tags$iframe(src = file_name, style = "width:100%; height:800px;")
-  }
-})
-
-observeEvent(input$main_nav, {
-  active_tab(input$main_nav)
-})
-
-
-################################## Marketing Analytics ###########################################
-
-
-output$mar1_content <- renderUI({
-  req(input$mar1_select) 
   
-  file_name <- switch(input$mar1_select,
-                      "Segmentation: K-means Clustering [Palmer Penguin]" = "marketing_analytics_segmentation.html",
-                      "A/B Testing [Fund raising: Donation]" = "marketing_analytics_abtesting.html",
-                      "Maximum Likelihood Estimation [Blueprinty]" = "marketing_analytics_mle.html",
-                      "Maximum Likelihood Estimation [Air BnB]" = "marketing_analytics_mle_2.html",
-                      "Multi-nomial Logit (MNL) Model [Yogurt]" = "marketing_analytics_mnl_conjoint.html",
-                      "Multi-nomial Logit (MNL) Model [Minivan]" = "marketing_analytics_mnl_conjoint_2.html",
-                      "Variable Importance [Payment Card]" = "marketing_analytics_variable_importance.html")
   
-  if (!is.null(file_name)) {
-    tags$iframe(src = file_name, style = "width:100%; height:800px;")
-  }
-})
-
-observeEvent(input$main_nav, {
-  active_tab(input$main_nav)
-})
-
-
-
-
-################################## Supply Chain Analytics ###########################################
-
-
-output$sup1_content <- renderUI({
-  req(input$sup1_select) 
   
-  file_name <- switch(input$sup1_select,
-                      "Clustering Analysis [Late Order Acknowledgement]" = "supply_chain_analytics_late_order_clustering.html",
-                      "Distribution Center Cost Comparison: Regional vs. National" = "supply_chain_analytics_distribution_center_cost_comparison.html",
-                      "Customer Flow Analysis [Rogers Market: Amazon Just Walk Out Technology]" = "supply_chain_analytics_customer_flow_rogers.html"
-                      )
+  ################################## Chapter 6: Regression Models: Concepts and Practice ###########################################
   
-  if (!is.null(file_name)) {
-    tags$iframe(src = file_name, style = "width:100%; height:800px;")
-  }
-})
-
-observeEvent(input$main_nav, {
-  active_tab(input$main_nav)
-})
-
-
-
-
-################################## People Analytics ###########################################
-
-
-output$pep1_content <- renderUI({
-  req(input$pep1_select) 
   
-  file_name <- switch(input$pep1_select,
-                      "Forecasting Attrition Rates for Each Manufacturing Facility" = "people_analytics_forecasting_attrition.html")
+  output$chapter6_content <- renderUI({
+    req(input$chapter6_select) 
+    
+    file_name <- switch(input$chapter6_select,
+                        "The Construction Department at Croq'Pain" = "Chapter_6_the_construction_department_at_croqpain.html")
+    
+    if (!is.null(file_name)) {
+      tags$iframe(src = file_name, style = "width:100%; height:800px;")
+    }
+  })
   
-  if (!is.null(file_name)) {
-    tags$iframe(src = file_name, style = "width:100%; height:800px;")
-  }
-})
-
-observeEvent(input$main_nav, {
-  active_tab(input$main_nav)
-})
-
-
-
-
-
-#########################################################################################################################################################
-
-
+  observeEvent(input$main_nav, {
+    active_tab(input$main_nav)
+  })
+  
+  
+  ################################## Marketing Analytics ###########################################
+  
+  
+  output$mar1_content <- renderUI({
+    req(input$mar1_select) 
+    
+    file_name <- switch(input$mar1_select,
+                        "Segmentation: K-means Clustering [Palmer Penguin]" = "marketing_analytics_segmentation.html",
+                        "A/B Testing [Fund raising: Donation]" = "marketing_analytics_abtesting.html",
+                        "Maximum Likelihood Estimation [Blueprinty]" = "marketing_analytics_mle.html",
+                        "Maximum Likelihood Estimation [Air BnB]" = "marketing_analytics_mle_2.html",
+                        "Multi-nomial Logit (MNL) Model [Yogurt]" = "marketing_analytics_mnl_conjoint.html",
+                        "Multi-nomial Logit (MNL) Model [Minivan]" = "marketing_analytics_mnl_conjoint_2.html",
+                        "Variable Importance [Payment Card]" = "marketing_analytics_variable_importance.html")
+    
+    if (!is.null(file_name)) {
+      tags$iframe(src = file_name, style = "width:100%; height:800px;")
+    }
+  })
+  
+  observeEvent(input$main_nav, {
+    active_tab(input$main_nav)
+  })
+  
+  
+  
+  
+  ################################## Supply Chain Analytics ###########################################
+  
+  
+  output$sup1_content <- renderUI({
+    req(input$sup1_select) 
+    
+    file_name <- switch(input$sup1_select,
+                        "Clustering Analysis [Late Order Acknowledgement]" = "supply_chain_analytics_late_order_clustering.html",
+                        "Distribution Center Cost Comparison: Regional vs. National" = "supply_chain_analytics_distribution_center_cost_comparison.html",
+                        "Customer Flow Analysis [Rogers Market: Amazon Just Walk Out Technology]" = "supply_chain_analytics_customer_flow_rogers.html"
+    )
+    
+    if (!is.null(file_name)) {
+      tags$iframe(src = file_name, style = "width:100%; height:800px;")
+    }
+  })
+  
+  observeEvent(input$main_nav, {
+    active_tab(input$main_nav)
+  })
+  
+  
+  
+  
+  ################################## People Analytics ###########################################
+  
+  
+  output$pep1_content <- renderUI({
+    req(input$pep1_select) 
+    
+    file_name <- switch(input$pep1_select,
+                        "Forecasting Attrition Rates for Each Manufacturing Facility" = "people_analytics_forecasting_attrition.html")
+    
+    if (!is.null(file_name)) {
+      tags$iframe(src = file_name, style = "width:100%; height:800px;")
+    }
+  })
+  
+  observeEvent(input$main_nav, {
+    active_tab(input$main_nav)
+  })
+  
+  
+  ################################## Decision Making Game ###########################################
+  
+  
+  output$majd1_content <- renderUI({
+    req(input$majd1_select) 
+    
+    file_name <- switch(input$majd1_select,
+                        "Decision Making Game: A Reflection on Managerial Judgment and Decision Making Class from UCSD" = "decision_making_game.html")
+    
+    if (!is.null(file_name)) {
+      tags$iframe(src = file_name, style = "width:100%; height:800px;")
+    }
+  })
+  
+  observeEvent(input$main_nav, {
+    active_tab(input$main_nav)
+  })
+  
+  
+  
+  #########################################################################################################################################################
+  
+  
 }
 
 shinyApp(ui = ui, server = server)

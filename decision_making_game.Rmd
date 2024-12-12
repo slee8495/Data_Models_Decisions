@@ -1,0 +1,66 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/decision_making.png){width="540"}
+
+<br>
+
+### [*Play the Game!*](https://business-analytics-slee.shinyapps.io/decision_making_game//)
+
+<br>
+
+## **Take a Quick Glance at This Decision-Making Game**
+
+<br>
+
+**What’s the purpose of this game, and what’s the story?** <br>
+
+-   This game is simple but captures the core essence of the Managerial Judgment and Decision Making class from UCSD. It distills the key concepts into an interactive experience, focusing on practical applications of decision-making principles. <br>
+
+**What is the goal of the game?** <br>
+
+-   The goal is to provide a straightforward yet impactful way to reinforce the key takeaways of the class. While the game is easy to follow, it challenges players to think critically, weigh options, and apply decision-making frameworks learned throughout the course. <br>
+
+## <br>
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::
