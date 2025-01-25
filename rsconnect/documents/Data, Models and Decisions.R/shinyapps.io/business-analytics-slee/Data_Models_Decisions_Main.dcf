@@ -1,12 +1,12 @@
-name: Data_Models_Decisions
+name: Data_Models_Decisions_Main
 title: Data_Models_Decisions_Main
 username: business-analytics-slee
 account: business-analytics-slee
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 10707566
-bundleId: 9699634
-url: https://business-analytics-slee.shinyapps.io/Data_Models_Decisions/
+appId: 13808525
+bundleId: 9699561
+url: https://business-analytics-slee.shinyapps.io/Data_Models_Decisions_Main/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
