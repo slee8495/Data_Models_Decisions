@@ -28,7 +28,7 @@ ui <- fluidPage(
     navbarMenu("Introduction",
                tabPanel("Overview", value = "overview", uiOutput("overview")), 
                tabPanel("About Me", value = "about_me", uiOutput("about_me")), 
-               tabPanel("About the Book", value = "about_the_book", uiOutput("about_the_book"))
+               tabPanel("Inspired By", value = "about_the_book", uiOutput("about_the_book"))
     ),
     navbarMenu("Case Study - My Interpretations/Solutions",
                tabPanel("Chapter 1: Decision Analysis", value = "chapter1",
