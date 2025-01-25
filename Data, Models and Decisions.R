@@ -23,7 +23,7 @@ ui <- fluidPage(
   
   navbarPage(
     id = "main_nav",
-    title = div(class = "navbar-brand", "Sangho's Business Analytics Case Study & Solutions"),
+    title = div(class = "navbar-brand", "Sangho's Business Analytics & Decision Making Case Study"),
     tabPanel("🏠", value = "home", uiOutput("home")),
     navbarMenu("Introduction",
                tabPanel("Overview", value = "overview", uiOutput("overview")), 

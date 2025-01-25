@@ -32,17 +32,15 @@ font-size: 0.9em;
 
 <br>
 
-# Welcome to my Business Analytics Website
+### Welcome to my Business Analytics & Decision Making Website
 
 <br>
 
-Step into the world of the book "Data, Models, and Decisions" written by Dimitris Bertsimas and Robert M. Freund, distinguished professors from the MIT Sloan School of Management. This book, which I first encountered as a textbook during my Business Analytics Master's degree at University of California San Diego (UCSD), Rady School of Management, remains a vital resource filled with rich lessons and captivating case studies in business analytics.
+This website is a collection of my study notes, experiences, and insights into the world of data-driven decision-making. While it was inspired by Data, Models, and Decisions by Dimitris Bertsimas and Robert M. Freund—a book I first encountered during my Business Analytics Master’s program at UCSD Rady School—it has grown into much more than just an exploration of its case studies.
 
-On this website (built in R Shiny), I dive into these insightful case studies, offering my personal interpretations and solutions. It's a vibrant space for exploring the intricate connections between data, models, and decision-making in the business world.
+Here, I document my personal interpretations, solutions, and key takeaways from various business analytics challenges, blending theory with real-world applications. My goal is to create a space that is both informative and engaging, where complex concepts become approachable and practical.
 
-I try to maintain a balance between informative content and engaging analysis, ensuring that the experience remains fun and exciting without being boring!
-
-I welcome your thoughts, feedback, or any discussions at [businessanalyticsslee\@gmail.com](mailto:businessanalyticsslee@gmail.com) or [sanlee8495\@gmail.com](mailto:sanlee8495@gmail.com).
+I’d love to hear your thoughts, feedback, or engage in discussions—feel free to reach out at [businessanalyticsslee\@gmail.com](mailto:businessanalyticsslee@gmail.com).
 
 <br>
 
