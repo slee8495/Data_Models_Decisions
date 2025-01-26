@@ -57,7 +57,7 @@ font-size: 0.9em;
 -   The objective of the analysis is to design a logistic regression model that can reliably forecast high turnover at different plant locations, using variables such as external and internal openings, hires, and terminations from various fiscal years. This model aims to equip management with actionable insights, enabling them to implement strategic interventions where they are most needed to reduce employee turnover effectively.
 
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 

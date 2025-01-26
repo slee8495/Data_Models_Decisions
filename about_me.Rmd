@@ -33,41 +33,37 @@ font-size: 0.9em;
 
 ------------------------------------------------------------------------
 
-Hello! I'm Sangho Lee, a dedicated data analyst at Ventura Foods where I am currently enhancing business processes at Ventura Foods and a bit of an R & Python enthusiast.
+Hi, I’m Sangho Lee, a data-driven problem solver and Manager of Analytics & Performance Optimization at Hyundai Motors America. My passion lies in transforming raw data into meaningful insights that drive strategic decision-making and operational efficiency.
 
-![](Photo/Sangho_2.png){width="306"}
+<br>
 
-<br><br> My data journey didn't start in a classroom; it began hands-on, with lots of coding and real-world problem-solving. Keen to dive deeper, I headed to UC San Diego for a Master's in Business Analytics, which turned out to be a fantastic playground for my data-driven curiosity.
+![](Photo/hyundai.jpg)
 
-At Ventura Foods, my day-to-day is about making things easier and more insightful through automation and dashboards. I believe in the power of data to tell stories and guide decisions, and I love turning complex data into clear, actionable insights.
+<br> I didn’t start my career in a classroom—I started hands-on, tackling real-world problems through coding, analytics, and automation. This passion led me to pursue a Master’s in Business Analytics at UC San Diego, where I deepened my expertise in statistical modeling, machine learning, and business intelligence.
 
-This website is inspired by "Data, Models, and Decisions" by Dimitris Bertsimas and Robert M. Freund, it's where I unpack case studies to share a-ha moments about data and decisions in the business world.
+<br>
 
-<br><br>When I'm not crunching numbers or codings, I can be found on the golf course. Golf is my way to unwind -- there's nothing like the peace of hitting the fairways! 
+![](Photo/ucsd_grad.JPG){width="653"}
 
-Speaking of excitement, I'm a big baseball fan, especially of the LA Dodgers. My first Major League baseball game was at the dodger stadium which was an unforgettable experience -- the energy, the fans, and that unforgettable feeling of being part of something bigger. It's been a thrill ride ever since! 🏌️⚾
+<br><br>
 
-![](Photo/golf.png){width="164"}. ![](Photo/Sangho.png){width="175"}
+This site is an extension of my passion for analytics—a space where I document my study notes, industry insights, and personal interpretations of data-driven decision-making. While inspired by Data, Models, and Decisions by Dimitris Bertsimas and Robert M. Freund, it goes beyond the book, incorporating my own experiences and real-world applications.
+
+My goal is to make analytics engaging, insightful, and practical, breaking down complex concepts into actionable takeaways.
+
+<br>
+
+When I’m not working with data, I enjoy watching baseball (Go Dodgers!), football (Go Rams!), and binge-watching Netflix. At home in Orange County, California, I spend time with my wife, Kristen, and our little baby, Brownie. We love discovering great food spots in Southern California, but also enjoy quiet days at home.
+
+<br>
+
+![](Photo/family.JPG){width="698"}
+
+<br><br>I hope you enjoy the websites and also feel free to visit my <a href="https://www.linkedin.com/in/slee1211" target="_blank">LinkedIn</a>, or check out what I'm up to on <a href="https://www.github.com/slee8495" target="_blank">GitHub</a>.
+
+<br> <br> Enjoy your visit!
 
 <br> <br>
-
-Back at home in Irvine, California, with two of my greatest joys: my adorable miniature poodle, Brownie, and my wonderful wife, Kristen. Our days are brightened by Brownie, the undisputed little boss of our home. She's a bundle of enthusiasm, always on a quest for treats and seeking out the coziest napping spots. Her playful antics and affectionate nature bring a smile to every moment.
-
-Living in Irvine offers its own charms. Whether we're soaking up the California sun, exploring local hidden gems (So many good foods in OC!), or simply enjoying a quiet day at home, every day is an adventure, though my wife and I also love to stay at home for as many as days we can 😂.
-
-<br>
-
-![](Photo/family.png){width="209"}
-
-<br><br>I hope you enjoy the websites and also Feel free to visit my <a href="https://www.linkedin.com/in/slee1211" target="_blank">LinkedIn</a>, or check out what I'm up to on <a href="https://www.github.com/slee8495" target="_blank">GitHub</a>.
-
-Also, check out this fun project that I've done with my study buddies
-
-<a href="https://ucsd-rsm.shinyapps.io/mgta452_group_c/" target="_blank">US Census Data Project (UCSD)</a>
-
-<br>
-<br>
-Enjoy your visit!
 
 ------------------------------------------------------------------------
 

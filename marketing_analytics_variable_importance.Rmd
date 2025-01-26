@@ -55,7 +55,7 @@ font-size: 0.9em;
 
 -   The goal is to implement and compare several measures of variable importance for customer satisfaction with the payment card. These measures include Pearson correlations, standardized regression coefficients, "usefulness" scores, Shapley values for linear regression, Johnson's relative weights, and the mean decrease in the Gini coefficient from a random forest model.
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 

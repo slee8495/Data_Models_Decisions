@@ -55,7 +55,7 @@ font-size: 0.9em;
 
 -   The objective is to develop a statistical model using the Multinomial Logit (MNL) framework. This will allow us to estimate the impact of product characteristics like price, brand, and marketing promotions on consumer choices. The analysis will uncover which product attributes significantly influence purchasing decisions and which yogurt brands are most and least preferred by consumers.
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 

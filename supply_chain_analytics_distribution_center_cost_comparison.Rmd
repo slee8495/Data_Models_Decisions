@@ -55,7 +55,7 @@ font-size: 0.9em;
 
 -   The goal of this analysis is to calculate and compare key inventory metrics and transportation costs for both regional and national distribution centers. By doing so, we aim to identify the most cost-effective distribution strategy for each product, considering factors such as order quantities, cycle stock, safety stock, and inventory holding costs. Ultimately, the analysis seeks to inform strategic decisions regarding the optimal distribution setup that balances cost efficiency with service level requirements, thereby enhancing overall supply chain performance.
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 

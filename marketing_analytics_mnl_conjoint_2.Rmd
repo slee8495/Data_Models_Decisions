@@ -55,7 +55,7 @@ font-size: 0.9em;
 
 -   The goal is to build a Multinomial Logit (MNL) model to estimate the relative preferences of different minivan attributes. This model will identify which attributes (e.g., more seats or larger cargo space) are most preferred and convert the price coefficient into a "dollar-per-util" value to compare the monetary worth of different features.
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 

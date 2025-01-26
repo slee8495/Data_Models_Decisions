@@ -55,7 +55,7 @@ font-size: 0.9em;
 
 -   The goal is to provide a straightforward yet impactful way to reinforce the key takeaways of the class. While the game is easy to follow, it challenges players to think critically, weigh options, and apply decision-making frameworks learned throughout the course. <br>
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 

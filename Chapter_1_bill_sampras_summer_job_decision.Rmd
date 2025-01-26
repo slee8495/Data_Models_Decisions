@@ -56,7 +56,7 @@ We are tackling a decision analysis problem to determine the best summer employm
 The goal is to construct and analyze a decision tree that represents Bill's summer job options to help him make an informed choice based on his preference for a higher summer salary. The decision tree will systematically represent and evaluate the sequence of decisions and uncertainties Bill faces, guiding him to a decision that maximizes his salary expectations. <br><br>
 
 
-<br>
+<br> 
 
 ------------------------------------------------------------------------
 

@@ -55,7 +55,7 @@ font-size: 0.9em;
 
 -   The analysis aims to identify if there's a significant correlation between using Blueprinty's software and the number of patents awarded to these 1,500 firms over the last 5 years. The analysis will provide insights into the effectiveness of Blueprinty's software in increasing patent approvals and will help guide marketing strategies by identifying the most effective methods for promoting the software to potential clients.
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 

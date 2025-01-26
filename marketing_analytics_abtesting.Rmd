@@ -55,7 +55,7 @@ font-size: 0.9em;
 
 -   The goal of the analysis is to develop a statistical model to compare the success rates of the three different types of fundraising letters. The model will evaluate which approach is most effective in generating donations and will provide insights into how variations in message framing can impact donor behavior. Ultimately, this analysis will help guide fundraising strategies by identifying the most effective methods for soliciting donations, thus enabling more efficient and targeted fundraising campaigns.
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 

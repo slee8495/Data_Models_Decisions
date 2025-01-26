@@ -55,7 +55,7 @@ font-size: 0.9em;
 
 -   The goal is to write the k-means clustering algorithm, visualize its steps, and compare the results with the built-in k-means function in R. Additionally, we aim to calculate and plot the within-cluster-sum-of-squares and silhouette scores for different numbers of clusters to determine the optimal number of clusters suggested by these metrics.
 
-## <br>
+## <br> 
 
 ------------------------------------------------------------------------
 
