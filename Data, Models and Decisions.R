@@ -30,7 +30,7 @@ ui <- fluidPage(
                tabPanel("About Me", value = "about_me", uiOutput("about_me")), 
                tabPanel("Inspired By", value = "about_the_book", uiOutput("about_the_book"))
     ),
-    navbarMenu("Case Study - My Interpretations/Solutions",
+    navbarMenu("Data, Models, and Decisions",
                tabPanel("Chapter 1: Decision Analysis", value = "chapter1",
                         fluidPage(
                           pickerInput("chapter1_select", "Choose a Case:",
@@ -46,7 +46,7 @@ ui <- fluidPage(
                           uiOutput("chapter6_content")))
                
     ),
-    navbarMenu("Business Analytics Cases",
+    navbarMenu("University of California, San Diego - MSBA",
                tabPanel("Marketing Analytics", value = "mar_analytics",
                         fluidPage(
                           pickerInput("mar1_select", "Choose a Case:",
