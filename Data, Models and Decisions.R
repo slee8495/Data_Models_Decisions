@@ -35,7 +35,8 @@ ui <- fluidPage(
                         fluidPage(
                           pickerInput("chapter1_select", "Choose a Case:",
                                       choices = c("Bill Sampras Summer Job Decision", 
-                                                  "Bio-Imaging Development Strategies")),
+                                                  "Bio-Imaging Development Strategies",
+                                                  "Kendall Crab and Lobster, Inc.")),
                           uiOutput("chapter1_content"))),
                
                
@@ -183,7 +184,8 @@ server <- function(input, output, session) {
     
     file_name <- switch(input$chapter1_select,
                         "Bio-Imaging Development Strategies" = "Chapter_1_bio_imaging_development_strategies.html",
-                        "Bill Sampras Summer Job Decision" = "Chapter_1_bill_sampras_summer_job_decision.html")
+                        "Bill Sampras Summer Job Decision" = "Chapter_1_bill_sampras_summer_job_decision.html",
+                        "Kendall Crab and Lobster, Inc." = "Chapter_1_kendall_crab_lobster.html")
     
     if (!is.null(file_name)) {
       tags$iframe(src = file_name, style = "width:100%; height:800px;")
