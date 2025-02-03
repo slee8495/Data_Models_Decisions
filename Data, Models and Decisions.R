@@ -34,8 +34,8 @@ ui <- fluidPage(
                tabPanel("Chapter 1: Decision Analysis", value = "chapter1",
                         fluidPage(
                           pickerInput("chapter1_select", "Choose a Case:",
-                                      choices = c("Bio-Imaging Development Strategies", 
-                                                  "Bill Sampras Summer Job Decision")),
+                                      choices = c("Bill Sampras Summer Job Decision", 
+                                                  "Bio-Imaging Development Strategies")),
                           uiOutput("chapter1_content"))),
                
                
