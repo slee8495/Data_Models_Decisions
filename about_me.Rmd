@@ -37,13 +37,13 @@ Hi, I’m Sangho Lee, a data-driven problem solver and Manager of Analytics & Pe
 
 <br>
 
-![](Photo/hyundai.jpg)
+![](Photo/hyundai.jpg){width="393"}
 
 <br> I didn’t start my career in a classroom—I started hands-on, tackling real-world problems through coding, analytics, and automation. This passion led me to pursue a Master’s in Business Analytics at UC San Diego, where I deepened my expertise in statistical modeling, machine learning, and business intelligence.
 
 <br>
 
-![](Photo/ucsd_grad.JPG){width="653"}
+![](Photo/ucsd_grad.JPG){width="491"}
 
 <br><br>
 
