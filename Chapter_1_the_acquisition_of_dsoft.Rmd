@@ -1,0 +1,70 @@
+---
+title: " "
+output:
+  html_document:
+  css: styles.css
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  font-size: 1.7em;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #f2f2f2; /* You can change the background color */
+  color: black; /* Text color */
+  text-align: center;
+padding: 10px 0;
+font-size: 0.9em;
+}
+
+
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](Photo/the_acqusition_of_dsoft.png)
+
+<br>
+
+### [*Click to view the analysis*](https://business-analytics-slee.shinyapps.io/Data_Models_Decisions_Chapter_1_the_acquisition_of_dsoft_2/)
+
+<br>
+
+## **Take a quick glance of this case study and analysis.**
+
+<br>
+
+**What kind of problem are we solving, what is the story?** <br>
+
+We are tackling a decision analysis problem to determine the best course of action for Polar Inc. regarding the potential acquisition of DSOFT. The story revolves around Polar’s competitive position in the database software market, where it competes with ILEN, another major player. Both companies are interested in acquiring DSOFT, and Polar must decide whether to make a high offer (\$400M), a low offer (\$320M), or make no offer.
+
+If Polar makes an offer, ILEN may counter, forcing Polar to decide whether to match ILEN’s offer or counter with a 10% higher bid. The analysis must account for ILEN’s response, DSOFT’s acceptance probabilities. <br>
+
+**What is the goal of the analysis?** <br>
+
+The goal is to construct and analyze a decision tree that maps out Polar’s strategic options and the uncertainties regarding ILEN’s actions and DSOFT’s response. By calculating Expected Monetary Value (EMV) for each scenario, we aim to identify the optimal bidding strategy that maximizes Polar’s expected financial return while mitigating risk. This analysis will help Polar’s executives make a math-driven acquisition decision that strengthens the company’s market position.<br><br>
+
+<br>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+::: {#footer}
+```{r echo=FALSE, results='asis'}
+cat("Copyright © 2023-", format(Sys.Date(), "%Y"), "Sangho Lee, All rights reserved.")
+```
+:::

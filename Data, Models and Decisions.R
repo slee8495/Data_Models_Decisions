@@ -37,7 +37,8 @@ ui <- fluidPage(
                                       choices = c("Bill Sampras Summer Job Decision", 
                                                   "Bio-Imaging Development Strategies",
                                                   "Kendall Crab and Lobster, Inc.",
-                                                  "Buying a House")),
+                                                  "Buying a House",
+                                                  "The Acquisition of DSOFT")),
                           uiOutput("chapter1_content"))),
                
                
@@ -187,7 +188,8 @@ server <- function(input, output, session) {
                         "Bio-Imaging Development Strategies" = "Chapter_1_bio_imaging_development_strategies.html",
                         "Bill Sampras Summer Job Decision" = "Chapter_1_bill_sampras_summer_job_decision.html",
                         "Kendall Crab and Lobster, Inc." = "Chapter_1_kendall_crab_lobster.html",
-                        "Buying a House" = "Chapter_1_buying_a_house.html")
+                        "Buying a House" = "Chapter_1_buying_a_house.html",
+                        "The Acquisition of DSOFT" = "Chapter_1_the_acquisition_of_dsoft.html")
     
     if (!is.null(file_name)) {
       tags$iframe(src = file_name, style = "width:100%; height:800px;")
